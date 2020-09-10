@@ -1,0 +1,56 @@
+---
+title: Jiaxin Lin's Homepage
+---
+
+<img src="/images/photo.jpg" style="max-width: 30%;float: right; margin: 10px;" />
+$about$
+
+<!--
+<h2>News</h2>
+<ul>
+    $for(news)$
+        <li>
+            $body$ - $date$
+        </li>
+    $endfor$
+</ul>
+-->
+
+<h3 id="section-publication">Publications</h3>
+<ul>
+    $for(publications)$
+        <li>
+            <h4>
+                $name$
+                $if(link)$
+                    <span>[<a target="_blank" href="$link$"><i class="fas fa-link"></i> Link</a>]</span>
+                $endif$
+                $if(file)$
+                    <span>[<a target="_blank" href="$file$"><i class="fas fa-file-pdf"></i> PDF</a>]</span>
+                $endif$
+                $if(artifact)$
+                    <span>[<a target="_blank" href="$artifact$"><i class="fab fa-github"></i> Artifact</a>]</span>
+                $endif$
+            </h4>
+            <i>$authors$</i>
+            <br/>
+            $if(site)$$site$$endif$
+        </li>
+    $endfor$
+</ul>
+
+<h3>Work Experience</h3>
+<ul>
+    $for(experience)$
+        <li>$item$</li>
+    $endfor$
+</ul>
+
+<h3 id="section-artwork">Artworks</h3>
+<!-- Embedded Images! -->
+<div class="pixiv-gallery">
+    $for(artworks)$
+    <div class="pixiv-embed" data-id="$item$" data-size="medium" data-border="off"></div>
+    $endfor$
+</div>
+<p>You can find more on my home page in <a href="https://www.pixiv.net/users/4821145"><strong>Pixiv</strong></a></p>

@@ -1,0 +1,14 @@
+-
+  name: "Frenzy: A Programmable High-Performance NIC for Multi-tenant Networks"
+  authors: Jiaxin Lin, Kiran Patel, Brent Stephens, Anirudh Sivaraman, Aditya Akella
+  site: 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI ‘20)
+  link: https://www.usenix.org/conference/osdi20/presentation/lin
+-
+  name: "DLBooster: Boosting End-to-End Deep Learning Workflow with Offloading Data Preprocessing Pipelines"
+  authors: Yang Cheng, Dan Li, Zhiyuan Guo, BinYao Jiang, Jiaxin Lin (…)
+  site: 48th International Conference on Parallel Processing (ICPP 2019)
+  file: dlbooster-icpp2019.pdf
+-
+  name: "Bridging the Gap of Lane Detection Performance Between Different Datasets: Unified Viewpoint Transformation"
+  authors: Wen, T., Yang, D., Jiang, K., Yu, C., Lin, J., Wijaya, B. and Jiao, X
+  site: IEEE Transactions on Intelligent Transportation Systems
