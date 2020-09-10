@@ -35,7 +35,7 @@ jobs:
     - name: Checkout build branch
       uses: actions/checkout@v1
       with:
-        ref: 'build'
+        ref: build
         clean: false
 
         
@@ -43,6 +43,11 @@ jobs:
       run: cp -a _site/. .
       
     - name: Commit to build branch
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: EndBug/add-and-commit@v4
       with:
-        commit_message: Auto Build
+        add: -A
+        ref: build
+        
+env:
+  # This is necessary in order to push a commit to the repo
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
