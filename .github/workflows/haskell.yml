@@ -1,0 +1,37 @@
+name: Haskell CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-haskell@v1
+      with:
+        ghc-version: 'latest'
+        enable-stack: true
+        stack-version: 'latest'
+
+    - name: Build
+      run: stack build
+      
+    - name: Checkout build branch
+      uses: actions/checkout@v1
+      with:
+        ref: 'build'
+        clean: false
+        
+    - name: Copy to build branch
+      run: copy -a _site/. .
+      
+    - name: Commit to build branch
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Auto Build
