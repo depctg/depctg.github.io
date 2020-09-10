@@ -15,21 +15,31 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-haskell@v1
       with:
-        ghc-version: 'latest'
+        ghc-version: '8.8.4'
         enable-stack: true
         stack-version: 'latest'
+        
+    - name: Cache stack
+      uses: actions/cache@v2
+      with:
+        path: |
+          ~/.stack
+        key: ${{ runner.os }}-stackage
 
     - name: Build
-      run: stack build
+      run: |
+        stack build
+        stack exec site build
       
     - name: Checkout build branch
       uses: actions/checkout@v1
       with:
         ref: 'build'
         clean: false
+
         
     - name: Copy to build branch
-      run: copy -a _site/. .
+      run: cp -a _site/. .
       
     - name: Commit to build branch
       uses: stefanzweifel/git-auto-commit-action@v4
