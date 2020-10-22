@@ -3,6 +3,7 @@
   authors: Jiaxin Lin, Kiran Patel, Brent Stephens, Anirudh Sivaraman, Aditya Akella
   site: 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI ‘20)
   link: https://www.usenix.org/conference/osdi20/presentation/lin
+  file: http://wisr.cs.wisc.edu/papers/osdi20-panic.pdf 
 -
   name: "DLBooster: Boosting End-to-End Deep Learning Workflow with Offloading Data Preprocessing Pipelines"
   authors: Yang Cheng, Dan Li, Zhiyuan Guo, BinYao Jiang, Jiaxin Lin (…)
