@@ -27,6 +27,7 @@ data Publication = Publication {
     authors :: String,
     site :: Maybe String,
     file :: Maybe String,
+    fileUrl :: Maybe String,
     link :: Maybe String,
     note :: Maybe String,
     artifact :: Maybe String
@@ -35,10 +36,12 @@ data Publication = Publication {
 mapBody f = return . f . itemBody
 listCtx = field "item" . mapBody
 
+getFileUrl a = fmap ("/files/" ++) (file a) <|> fileUrl a
+
 pubCtx = field       "name" (mapBody name)
       <> field       "authors" (mapBody authors)
       <> optionField "site" (mapBody site) 
-      <> optionField "file" (mapBody $ fmap ("/files/" ++) . file) 
+      <> optionField "file" (mapBody getFileUrl) 
       <> optionField "link" (mapBody link) 
       <> optionField "note" (mapBody note) 
       <> optionField "artifact" (mapBody artifact) 
