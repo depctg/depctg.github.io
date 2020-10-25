@@ -1,7 +1,7 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
-  name: "Frenzy: A Programmable High-Performance NIC for Multi-tenant Networks"
+  name: "PANIC: A High-Performance Programmable NIC for Multi-tenant Networks"
   authors: Jiaxin Lin, Kiran Patel, Brent Stephens, Anirudh Sivaraman, Aditya Akella
   site: 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI ‘20)
   link: https://www.usenix.org/conference/osdi20/presentation/lin
