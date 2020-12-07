@@ -1,4 +1,4 @@
-Hi, I’m Jiaxin Lin. I’m currently a graduate student at the University of Wisconsin Madison, major in Computer Science. I was graduated from Beihang University, Beijing in 2019. I am now a part of the [Wisconsin Internet Systems Research (WISR)](http://wisr.cs.wisc.edu/) Lab, and my adviser is [Aditya Akella](http://pages.cs.wisc.edu/~akella/). Specifically, I am interested in **computer network** and **system**, especially in programmable hardwares, data center networks, big data system, and SmartNIC.
+Hi, I’m Jiaxin Lin. I’m currently a graduate student at the University of Wisconsin Madison, major in Computer Science. I got my bachelor degree from Beihang University, Beijing in 2019. I am now a part of the [Wisconsin Internet Systems Research (WISR)](http://wisr.cs.wisc.edu/) Lab, and my adviser is [Aditya Akella](http://pages.cs.wisc.edu/~akella/). Specifically, I am interested in **computer network** and **system**, especially in programmable hardwares, data center networks, big data system, and SmartNIC.
 
 Additionly, I love digital painting, you can see [my artwork on Pixiv](#section-artwork).
 
