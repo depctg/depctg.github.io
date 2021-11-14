@@ -11,5 +11,6 @@ executable site
                   , bytestring
                   , mtl
                   , utf8-string
+                  , MissingH
   ghc-options:      -threaded
   default-language: Haskell2010

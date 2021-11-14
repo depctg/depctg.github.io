@@ -9,6 +9,7 @@ import           Data.Yaml
 import           GHC.Generics
 
 import           Data.ByteString.UTF8 (fromString)
+import           Data.List.Utils (replace)
 import           Control.Monad.Except
 import           Control.Arrow
 import           Control.Applicative
@@ -20,6 +21,10 @@ optionField :: String -> (Item a -> Compiler (Maybe String)) -> Context a
 optionField key value = Context $ \k _ i -> if k == key
                                             then value i >>= maybe empty (return . StringField)
                                             else empty
+
+
+mapBody f = return . f . itemBody
+listCtx = field "item" . mapBody
 
 -- Define of publication and publication context
 data Publication = Publication {
@@ -33,18 +38,28 @@ data Publication = Publication {
     artifact :: Maybe String
 } deriving (Generic, FromJSON)
 
-mapBody f = return . f . itemBody
-listCtx = field "item" . mapBody
-
 getFileUrl a = fmap ("/files/" ++) (file a) <|> fileUrl a
+boldAuthor au = replace au ("<span class=\"main-author\">" ++ au ++ "</span>")
 
-pubCtx = field       "name" (mapBody name)
-      <> field       "authors" (mapBody authors)
-      <> optionField "site" (mapBody site) 
-      <> optionField "file" (mapBody getFileUrl) 
-      <> optionField "link" (mapBody link) 
-      <> optionField "note" (mapBody note) 
+pubCtx = field       "name"     (mapBody name)
+      <> field       "authors"  (mapBody $ boldAuthor "Zhiyuan Guo" . authors)
+      <> optionField "site"     (mapBody site) 
+      <> optionField "file"     (mapBody getFileUrl) 
+      <> optionField "link"     (mapBody link) 
+      <> optionField "note"     (mapBody note) 
       <> optionField "artifact" (mapBody artifact) 
+
+-- Define of publication and publication context
+data Experience = Experience {
+    location :: String,
+    title :: String,
+    time :: String,
+    logo :: String
+} deriving (Generic, FromJSON)
+expCtx = field "location" (mapBody location)
+      <> field "title"    (mapBody title)
+      <> field "time"     (mapBody time)
+      <> field "logo"     (mapBody $ ("/images/logo/" ++) . logo)
 
 parseYaml :: FromJSON a => String -> Compiler a
 parseYaml = liftEither . left (return . show) . decodeEither' . fromString
@@ -59,6 +74,9 @@ main = do
     hakyll $ do
         -- static resources
         match "images/*" $ do
+            route   idRoute
+            compile copyFileCompiler
+        match "images/logo/*" $ do
             route   idRoute
             compile copyFileCompiler
 
@@ -85,9 +103,9 @@ main = do
                 -- news
                 news         <- return . take 5 =<< recentFirst =<< loadAll "news/*"
 
-                let indexCtx = listField  "publications" pubCtx       (wrapItemList publications)
-                            <> listField  "news"         postCtx      (return news)
-                            <> listField  "experience"   (listCtx id) (wrapItemList experience)
+                let indexCtx = listField  "publications" pubCtx         (wrapItemList publications)
+                            <> listField  "news"         postCtx        (return news)
+                            <> listField  "experience"   expCtx         (wrapItemList experience)
                             <> listField  "artworks"     (listCtx show) (wrapItemList artworks)
                             <> constField "about"        about
                             <> defaultContext

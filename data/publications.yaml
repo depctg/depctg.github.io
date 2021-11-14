@@ -1,17 +1,21 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
-  name: "PANIC: A High-Performance Programmable NIC for Multi-tenant Networks"
-  authors: Jiaxin Lin, Kiran Patel, Brent Stephens, Anirudh Sivaraman, Aditya Akella
-  site: 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI ‘20)
-  link: https://www.usenix.org/conference/osdi20/presentation/lin
-  fileUrl: http://wisr.cs.wisc.edu/papers/osdi20-panic.pdf 
+  name: "Clio: A Hardware-Software Co-Designed Disaggregated Memory System"
+  authors: Zhiyuan Guo*, Yizhou Shan*, Xuhao Luo, Yutong Huang, Yiying Zhang (* co-first authors) 
+  site: To Appear in Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS'22)
+-
+  name: "Accelerating End-to-End Deep Learning Workflows with Codesign of Data Preprocessing and Scheduling"
+  authors: Yang Cheng, Dan Li, Zhiyuan Guo, Binyao Jiang, Jinkun Geng, Wei Bai, Jianping Wu, and Yongqiang Xiong
+  site: "IEEE Transactions on Parallel and Distributed Systems: Special Section on Parallel and Distributed Computing Techniques for AI, ML, and DL (IEEE TPDS-SS-AI) 2020"
+-
+  name: "Direct Universal Access: Making Data Center Resources Available to FPGA"
+  authors: Ran Shu, Peng Cheng, Guo Chen, Zhiyuan Guo, Lei Qu, Yongqiang Xiong, Derek Chiou, Thomas Moscibroda
+  site: 16th USENIX Symposium on Networked Systems Design and Implementation (NSDI ‘19)
+  link: https://www.usenix.org/conference/nsdi19/presentation/shu
+  fileUrl: https://www.usenix.org/system/files/nsdi19-shu.pdf
 -
   name: "DLBooster: Boosting End-to-End Deep Learning Workflow with Offloading Data Preprocessing Pipelines"
   authors: Yang Cheng, Dan Li, Zhiyuan Guo, BinYao Jiang, Jiaxin Lin (…)
   site: 48th International Conference on Parallel Processing (ICPP 2019)
   file: dlbooster-icpp2019.pdf
--
-  name: "Bridging the Gap of Lane Detection Performance Between Different Datasets: Unified Viewpoint Transformation"
-  authors: Wen, T., Yang, D., Jiang, K., Yu, C., Lin, J., Wijaya, B. and Jiao, X
-  site: IEEE Transactions on Intelligent Transportation Systems

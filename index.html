@@ -1,5 +1,5 @@
 ---
-title: Jiaxin Lin's Homepage
+title: Zhiyuan Guo's Homepage
 ---
 
 <img src="/images/photo.jpg" style="max-width: 30%;float: right; margin: 10px;" />
@@ -17,7 +17,7 @@ $about$
 -->
 
 <h3 id="section-publication">Publications</h3>
-<ul>
+<ul class="pubs">
     $for(publications)$
         <li>
             <h4>
@@ -39,18 +39,18 @@ $about$
     $endfor$
 </ul>
 
-<h3>Work Experience</h3>
-<ul>
+<h3 id="section-experience">Work Experience</h3>
+<div class="exps">
     $for(experience)$
-        <li>$item$</li>
-    $endfor$
-</ul>
-
-<h3 id="section-artwork">Artworks</h3>
-<!-- Embedded Images! -->
-<div class="pixiv-gallery">
-    $for(artworks)$
-    <div class="pixiv-embed" data-id="$item$" data-size="medium" data-border="off"></div>
+        <div class="exp-entry flex-row">
+            <img src="$logo$" class="exp-logo"/>
+            <div style="flex: 1">
+                <div class="exp-location">$location$</div>
+                <div class="flex-row">
+                    <span>$title$</span><span class="pull-right">$time$</span>
+                </div>
+            </div>
+        </div>
     $endfor$
 </div>
-<p>You can find more on my home page in <a href="https://www.pixiv.net/users/4821145"><strong>Pixiv</strong></a></p>
+

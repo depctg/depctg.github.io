@@ -157,11 +157,40 @@ article .header {
 }
 
 a:link {
-  text-decoration: none;
-  color: #9b0000;
+  text-decoration: underline #FFCD00;
+  color: #00629B;
 }
 
 a:visited {
-  text-decoration: none;
-  color: #9b0000;
+  text-decoration: underline #FFCD00;
+  color: #00629B;
+}
+
+span.main-author {
+  font-weight: bold;
+}
+
+/* flex box for experience */
+.exps {
+    padding: 0 0.5em;
+}
+.exp-location {
+    font-weight: bold;
+}
+.exp-logo {
+    height: 2.2em;
+    margin-right: 0.75em;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+.pull-right {
+    margin-left: auto;
+}
+.exp-entry {
+    margin-bottom: 0.75em;
+}
+.exp-entry:last-child {
+    margin-bottom: 0;
 }
