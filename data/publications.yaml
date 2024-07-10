@@ -3,7 +3,9 @@
 -
   name: "Mira: A Program-Behavior-Guided Far Memory System"
   authors: Zhiyuan Guo, Zijian He, Yiying Zhang
-  site: To appear in The 29th ACM Symposium on Operating Systems Principles (SOSP '23)
+  site: The 29th ACM Symposium on Operating Systems Principles (SOSP '23)
+  fileUrl: https://dl.acm.org/doi/abs/10.1145/3503222.3507762
+  link: https://dl.acm.org/doi/10.1145/3600006.3613157
 -
   name: "Clio: A Hardware-Software Co-Designed Disaggregated Memory System"
   authors: Zhiyuan Guo*, Yizhou Shan*, Xuhao Luo, Yutong Huang, Yiying Zhang (* co-first authors) 
