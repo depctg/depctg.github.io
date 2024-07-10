@@ -1,6 +1,11 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
+  name: "Zenix: Efficient Execution of Bulky Serverless Applications"
+  authors: Zhiyuan Guo, Zachary Blanco, Junda Chen, Jinmou Li, Zerui Wei, Bili Dong, Ishaan Pota, Mohammad Shahrad, Harry Xu, Yiying Zhang
+  site: Arxiv Preprint
+  link: https://arxiv.org/abs/2206.13444
+-
   name: "Mira: A Program-Behavior-Guided Far Memory System"
   authors: Zhiyuan Guo, Zijian He, Yiying Zhang
   site: The 29th ACM Symposium on Operating Systems Principles (SOSP '23)
