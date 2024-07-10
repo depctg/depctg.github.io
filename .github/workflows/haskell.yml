@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: actions/setup-haskell@v1
+    - uses: haskell-actions/setup@v2
       with:
         ghc-version: '8.8.4'
         enable-stack: true
