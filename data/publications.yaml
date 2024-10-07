@@ -12,6 +12,11 @@
   fileUrl: https://dl.acm.org/doi/abs/10.1145/3503222.3507762
   link: https://dl.acm.org/doi/10.1145/3600006.3613157
 -
+  name: "Towards a Fully Disaggregated and Programmable Data Center"
+  authors: Yizhou Shan, Will Lin, Zhiyuan Guo, Yiying Zhang
+  site: The 13th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys '22)
+  fileUrl: https://dl.acm.org/doi/pdf/10.1145/3546591.3547527
+-
   name: "Clio: A Hardware-Software Co-Designed Disaggregated Memory System"
   authors: Zhiyuan Guo*, Yizhou Shan*, Xuhao Luo, Yutong Huang, Yiying Zhang (* co-first authors) 
   site: The 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '22)
