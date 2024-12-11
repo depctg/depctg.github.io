@@ -1,6 +1,10 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
+  name: "Portable and High-Performance SmartNIC Programs with Alkali"
+  authors: Jiaxin Lin*, Zhiyuan Guo*, Mihir Shah, Tao Ji, Yiying Zhang, Daehyeok Kim, and Aditya Akella (* co-first authors) 
+  site: To appear in The 22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI '25)
+-
   name: "Zenix: Efficient Execution of Bulky Serverless Applications"
   authors: Zhiyuan Guo, Zachary Blanco, Junda Chen, Jinmou Li, Zerui Wei, Bili Dong, Ishaan Pota, Mohammad Shahrad, Harry Xu, Yiying Zhang
   site: Arxiv Preprint
