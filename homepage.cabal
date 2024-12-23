@@ -12,5 +12,6 @@ executable site
                   , mtl
                   , utf8-string
                   , MissingH
+                  , pandoc
   ghc-options:      -threaded
   default-language: Haskell2010

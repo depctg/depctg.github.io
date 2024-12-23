@@ -13,8 +13,7 @@
   name: "Mira: A Program-Behavior-Guided Far Memory System"
   authors: Zhiyuan Guo, Zijian He, Yiying Zhang
   site: The 29th ACM Symposium on Operating Systems Principles (SOSP '23)
-  fileUrl: https://dl.acm.org/doi/abs/10.1145/3503222.3507762
-  link: https://dl.acm.org/doi/10.1145/3600006.3613157
+  fileUrl: https://dl.acm.org/doi/10.1145/3600006.3613157
 -
   name: "Towards a Fully Disaggregated and Programmable Data Center"
   authors: Yizhou Shan, Will Lin, Zhiyuan Guo, Yiying Zhang

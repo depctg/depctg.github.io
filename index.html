@@ -2,18 +2,24 @@
 title: Zhiyuan Guo's Homepage
 ---
 
-<img src="/images/photo.jpg" style="max-width: 30%;float: right; margin: 10px;" />
-$about$
+<div id="intro">
+    <div id="intro-text">
+        $about$
+    </div>
+    <img id="photo" src="/images/photo.jpg"/>
+</div>
 
 <!--
-<h2>News</h2>
-<ul>
+<h3 id="section-news">News</h3>
+<div>
     $for(news)$
-        <li>
-            $body$ - $date$
-        </li>
+    <div>
+        <span style="font-weight:bold;">[$date$]</span>
+        &nbsp;
+        <span>$body$</span>
+    </div>
     $endfor$
-</ul>
+</div>
 -->
 
 <h3 id="section-publication">Publications</h3>
@@ -54,3 +60,24 @@ $about$
     $endfor$
 </div>
 
+<!--
+<h3 id="section-award">Awards</h3>
+<div class="exps">
+    $for(awards)$
+        <div class="exp-entry flex-row">
+
+            <span class="exp-location">$text$</span><span class="pull-right">$time$</span>
+        </div>
+    $endfor$
+</div>
+
+<h3 id="section-services">Services</h3>
+<div class="exps">
+    $for(services)$
+        <div class="exp-entry flex-row" style="gap:10px;">
+            <span class="exp-location">$text$</span>
+            <span class="pull-right">$location$ $time$</span>
+        </div>
+    $endfor$
+</div>
+-->
