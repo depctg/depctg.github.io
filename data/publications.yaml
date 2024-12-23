@@ -24,6 +24,7 @@
   authors: Zhiyuan Guo*, Yizhou Shan*, Xuhao Luo, Yutong Huang, Yiying Zhang (* co-first authors) 
   site: The 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '22)
   fileUrl: https://dl.acm.org/doi/abs/10.1145/3503222.3507762
+  artifact: https://github.com/WukLab/Clio
 -
   name: "Accelerating End-to-End Deep Learning Workflows with Codesign of Data Preprocessing and Scheduling"
   authors: Yang Cheng, Dan Li, Zhiyuan Guo, Binyao Jiang, Jinkun Geng, Wei Bai, Jianping Wu, and Yongqiang Xiong
@@ -34,6 +35,7 @@
   site: 16th USENIX Symposium on Networked Systems Design and Implementation (NSDI ‘19)
   link: https://www.usenix.org/conference/nsdi19/presentation/shu
   fileUrl: https://www.usenix.org/system/files/nsdi19-shu.pdf
+  artifact: https://github.com/microsoft/DUA
 -
   name: "DLBooster: Boosting End-to-End Deep Learning Workflow with Offloading Data Preprocessing Pipelines"
   authors: Yang Cheng, Dan Li, Zhiyuan Guo, BinYao Jiang, Jiaxin Lin, Xi Fan, Jinkun Geng, Xinyi Yu, Wei Bai, Lei Qu, Ran Shu, Peng Cheng, Yongqiang Xiong, Jianping Wu
