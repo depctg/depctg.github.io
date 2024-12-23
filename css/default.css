@@ -70,8 +70,8 @@ article .header {
 }
 
 #photo {
-  max-width: 40%;
-  max-height: 240px;
+  max-width: 50%;
+  max-height: 300px;
   margin: auto 10px;
   order: 1;
 }
