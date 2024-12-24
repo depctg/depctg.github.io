@@ -190,3 +190,14 @@ span.main-author {
 .exp-entry:last-child {
     margin-bottom: 0;
 }
+
+.round-border-box {
+  border: 2px solid #FFCD00;
+  border-radius: 8px;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.round-border-box a {
+  text-decoration: none;
+}

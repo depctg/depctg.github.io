@@ -29,13 +29,19 @@ title: Zhiyuan Guo's Homepage
             <h4>
                 $name$
                 $if(link)$
-                    <span>[<a target="_blank" href="$link$"><i class="fas fa-link"></i> Link</a>]</span>
+                <span class="round-border-box">
+                    <a target="_blank" href="$link$"><i class="fas fa-link"></i> Link</a>
+                </span>
                 $endif$
                 $if(file)$
-                    <span>[<a target="_blank" href="$file$"><i class="fas fa-file-pdf"></i> PDF</a>]</span>
+                <span class="round-border-box">
+                    <a target="_blank" href="$file$"><i class="fas fa-file-pdf"></i> PDF</a>
+                </span>
                 $endif$
                 $if(artifact)$
-                    <span>[<a target="_blank" href="$artifact$"><i class="fab fa-github"></i> Artifact</a>]</span>
+                <span class="round-border-box">
+                    <a target="_blank" href="$artifact$"><i class="fab fa-github"></i> Artifact</a>
+                </span>
                 $endif$
             </h4>
             <i>$authors$</i>
