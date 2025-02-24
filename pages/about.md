@@ -4,6 +4,6 @@ I am now a part of the [Wuklab](http://wuklab.io/) and [SysNet](https://www.sysn
 I focus on building efficient, performant, and scalable next generation datacenter systems, through **resource disaggregation** and **co-design of application, software and hardware stacks**.
 My research interests span Operating Systems, Distributed Systems, Computer Architecture, and Programming Languages.
 
-<span style="color:red">**I am on the academic job market this year.**</span>
+<span style="color:red">**I am on the job market this year (2025).**</span>
 
 Contact: z9guo AT ucsd.edu
