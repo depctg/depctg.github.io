@@ -1,9 +1,15 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
+  name: "PageFlex: Flexible and Efficient User-space Delegation of Linux Paging Policies with eBPF"
+  authors: Anil Yelam, Kan Wu, Zhiyuan Guo, Rajath Shashidhara, Stanko Novaković, Suli Yang, Wei Xu, Alex Snoeren, Kimberly Keeton
+  site: To appear in 2025 USENIX Annual Technical Conference (ATC '25)
+-
   name: "Portable and High-Performance SmartNIC Programs with Alkali"
   authors: Jiaxin Lin*, Zhiyuan Guo*, Mihir Shah, Tao Ji, Yiying Zhang, Daehyeok Kim, and Aditya Akella (* co-first authors) 
-  site: To appear in The 22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI '25)
+  site: The 22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI '25)
+  fileUrl: https://www.usenix.org/system/files/nsdi25-lin-jiaxin.pdf
+  artifact: https://github.com/utnslab/Alkali
 -
   name: "Zenix: Efficient Execution of Bulky Serverless Applications"
   authors: Zhiyuan Guo, Zachary Blanco, Junda Chen, Jinmou Li, Zerui Wei, Bili Dong, Ishaan Pota, Mohammad Shahrad, Harry Xu, Yiying Zhang
@@ -14,6 +20,7 @@
   authors: Zhiyuan Guo, Zijian He, Yiying Zhang
   site: The 29th ACM Symposium on Operating Systems Principles (SOSP '23)
   fileUrl: https://dl.acm.org/doi/10.1145/3600006.3613157
+  artifact: https://github.com/WukLab/Mira
 -
   name: "Towards a Fully Disaggregated and Programmable Data Center"
   authors: Yizhou Shan, Will Lin, Zhiyuan Guo, Yiying Zhang
