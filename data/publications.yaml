@@ -15,6 +15,7 @@
   authors: Zhiyuan Guo, Zachary Blanco, Junda Chen, Jinmou Li, Zerui Wei, Bili Dong, Ishaan Pota, Mohammad Shahrad, Harry Xu, Yiying Zhang
   site: Arxiv Preprint
   link: https://arxiv.org/abs/2206.13444
+  artifact: https://github.com/WukLab/Scad
 -
   name: "Mira: A Program-Behavior-Guided Far Memory System"
   authors: Zhiyuan Guo, Zijian He, Yiying Zhang
