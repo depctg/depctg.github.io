@@ -1,9 +1,13 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
+  name: "An Early Exploration of Deep-Learning-Driven Prefetching for Far Memory"
+  authors: Yutong Huang, Zhiyuan Guo, Yiying Zhang
+  site: the 2025 Workshop on Machine Learning for Systems Co-Located with NeurIPS 2025 (MLForSys '25)
+-
   name: "PageFlex: Flexible and Efficient User-space Delegation of Linux Paging Policies with eBPF"
   authors: Anil Yelam, Kan Wu, Zhiyuan Guo, Rajath Shashidhara, Stanko Novaković, Suli Yang, Wei Xu, Alex Snoeren, Kimberly Keeton
-  site: To appear in 2025 USENIX Annual Technical Conference (ATC '25)
+  site: 2025 USENIX Annual Technical Conference (ATC '25)
 -
   name: "Portable and High-Performance SmartNIC Programs with Alkali"
   authors: Jiaxin Lin*, Zhiyuan Guo*, Mihir Shah, Tao Ji, Yiying Zhang, Daehyeok Kim, and Aditya Akella (* co-first authors) 
