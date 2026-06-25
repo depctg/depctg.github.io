@@ -1,6 +1,12 @@
 # Use file for local file and fileUrl for remote fiel
 
 -
+  name: "VDCores: Decoupled Programming and Execution for Asynchronous GPU"
+  authors: Zijian He, Adrian Sampson, Yiying Zhang, Zhiyuan Guo
+  site: Arxiv Preprint
+  link: https://arxiv.org/abs/2605.03190
+  artifact: https://github.com/vdcores/vdcores
+-
   name: "An Early Exploration of Deep-Learning-Driven Prefetching for Far Memory"
   authors: Yutong Huang, Zhiyuan Guo, Yiying Zhang
   site: the 2025 Workshop on Machine Learning for Systems Co-Located with NeurIPS 2025 (MLForSys '25)
