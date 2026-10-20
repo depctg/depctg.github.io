@@ -1,5 +1,8 @@
 # Use file for local file and fileUrl for remote fiel
-
+-
+  name: "DAK: Direct-Access-Enabled GPU Memory Offloading with Optimal Efficiency for LLM Inference"
+  authors: Shouxu Lin, Zhiyuan Guo, Jiaxin Lin
+  site: to appear in the ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '27)
 -
   name: "VDCores: Decoupled Programming and Execution for Asynchronous GPU"
   authors: Zijian He, Adrian Sampson, Yiying Zhang, Zhiyuan Guo
